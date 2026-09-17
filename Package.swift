@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "Common", targets: ["Common"])
     ],
     dependencies: [
-        .package(url: "https://github.com/RevanArturito/AnimeVerse-Core.git", from: "1.0.0")
+        .package(url: "https://github.com/RevanArturito/AnimeVerse-Core.git", from: "1.0.1")
     ],
     targets: [
         .target(name: "Common", dependencies: ["Core"]),
